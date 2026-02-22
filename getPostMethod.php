@@ -18,6 +18,11 @@
         <input type="submit" value="Login">
         
     </form>
+    <br>
+    <a href="getPostExercise.php">
+        <button>Let's Order pizza First?</button>
+    </a>
+    <br>
 </body>
 <?php
     echo $_POST["username"];
