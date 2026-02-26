@@ -16,7 +16,7 @@
         <br>
         <input type="submit" value="Submit"><br><br>
     </form>
-    <a href="/associativeArrays.php"><button>Explore Associative Arrays?</button></a>
+    <a href="associativeArrays.php"><button>Explore Associative Arrays?</button></a>
     <br>
     <br>
 </body>
