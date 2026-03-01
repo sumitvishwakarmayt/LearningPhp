@@ -20,11 +20,33 @@
     }
 */
 
-    function playSong(){
-        echo "Playing the song through playSong().";
+    function playSong($name, $age){
+        echo "Happy Birthday {$name}. <br>";
+        echo "Happy Birthday to you dear {$name}. <br>";
+        echo "Congrats you are now {$age} years old! <br><br>";
     }
 
-    playSong();
+    playSong("Sumit", 21);
+    playSong("Amit", 25);
 
+//function with return statement
 
+    function isEven($num){
+        if($num%2 == 0){
+            return "The given number {$num} is even.";
+        }
+        else{
+            return "The given number {$num} is odd.";
+        }
+    }
+
+    echo isEven(15) . "<br>";
+
+//function with return type
+
+    function divide(int $a, int $b): string{
+        return "The division of {$a} and {$b} is " . $a/$b;
+    }
+
+    echo divide(3, 2);
 ?>
