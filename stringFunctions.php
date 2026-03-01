@@ -13,7 +13,7 @@
     <form action="stringFunctions.php" method="post">
         <label for="string" >Enter the string:</label>
         <input type="text" name="string"><br>
-        <input type="submit" name="submit" value="Submit"><br>
+        <input type="submit" name="submit" ><br>
     </form>
 </html>
 
@@ -31,7 +31,12 @@
         $rev_string = strrev($string); //returns the reversed string.
         echo "{$rev_string}";
         echo strpos($string, 't') . "<br>"; //retuns the postion of second arg in first arg.
-        echo trim($string); //removes trailing whitespaces.
+        echo trim($string) . "<br>"; //removes trailing whitespaces.
+        echo str_pad($string, 20, "/") . "<br>"; //adds third arg at the end of first arg with second arg number of times.
+        echo strcmp($string, "amit") . "<br>"; //checks equality of two strings, returns 0 if equal, returns 1 if greater, returns -1 if smaller.
+        echo substr($string, 0, 2) . "<br>"; //returns substring from second arg to third arg.
+        
+        //there are two more other functions explode() and implode();
 
 
     }
