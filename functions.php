@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Creating and Exploring Functions in Php</h1>
+    <h2>Below output is from calling few php functions.</h2>
 </body>
 </html>
 <?php
@@ -49,4 +50,7 @@
     }
 
     echo divide(3, 2);
+    echo('<br>');
+    print('<br>');
+    echo "<a href='stringFunctions.php'><button>Explore String Functions</button></a>";
 ?>
